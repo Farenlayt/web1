@@ -2,11 +2,13 @@
 {
 	font-size:32px;
 	font-weight: bold;
+	color: blue;
+	margin-bottom: 20px;
 }
 
 .picture
 {
-	width:98%;
+	width:100%;
 	height:auto;
 }
 
@@ -14,6 +16,9 @@
 { 
     float: left; /* Обтекание по правому краю */
     width: 40%; /* Ширина слоя */
+	border: solid 1px black;
+	padding: 20px;
+	margin-right:30px;
 }
 
 .right 
@@ -21,4 +26,23 @@
     width: 40%; /* Ширина слоя */
     float: left; /* Обтекание по правому краю */
 	font-size:24px;
+}
+
+@media screen and (max-width:920px) 
+{
+	.t1
+	{
+		font-size:24px;
+		color: green;
+	}
+	.left, .right
+	{
+		width:80%;
+		padding: 5%;
+	}
+	.left
+	{
+		margin-right:0px;
+		margin-bottom:20px;
+	}
 }
