@@ -1,0 +1,24 @@
+.t1
+{
+	font-size:32px;
+	font-weight: bold;
+}
+
+.picture
+{
+	width:98%;
+	height:auto;
+}
+
+.left 
+{ 
+    float: left; /* Обтекание по правому краю */
+    width: 40%; /* Ширина слоя */
+}
+
+.right 
+{ 
+    width: 40%; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+	font-size:24px;
+}
