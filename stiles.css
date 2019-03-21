@@ -12,6 +12,38 @@
 	height:auto;
 }
 
+.header
+{
+	background-color: #097fdc;
+	height:50px;
+	width:100%;
+}
+
+.headertext
+{
+	float: left;
+	color: white;
+	font-size: 32px;
+	margin-left: 3%;
+}
+
+.headerinfo
+{
+	float: left;
+	color: white;
+	font-size: 14px;
+	position: relative;
+	right: -25%;
+}
+
+.profileimage
+{
+	float: right;
+	height: 100%;
+	width: auto;
+	margin-right: 3%;
+}
+
 .left 
 { 
     float: left; /* Обтекание по правому краю */
