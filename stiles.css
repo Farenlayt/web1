@@ -35,7 +35,7 @@
 	font-size: 18px;
 	margin-right:3%;
 	border: solid 1px white;
-	width: 10%;
+	width: 200px;
 	height: 30px;
 	margin-top: 10px;
 }
@@ -93,6 +93,7 @@
 	height: 10%;
 	float: left;
 	vertical-align: bottom;
+	text-align: center;
 }
 
 @media screen and (max-width:920px) 
@@ -114,10 +115,6 @@
 		margin-right:0px;
 		margin-bottom:20px;
 	}
-}
-
-@media screen and (max-width:550px) 
-{
 	.headerinfo
 	{
 		display: none;
