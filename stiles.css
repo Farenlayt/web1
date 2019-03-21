@@ -2,7 +2,7 @@
 {
 	font-size:32px;
 	font-weight: bold;
-	color: blue;
+	color: #3232b9;
 	margin: 10px;
 }
 
@@ -30,11 +30,14 @@
 
 .headerinfo
 {
-	float: left;
+	float: right;
 	color: white;
-	font-size: 14px;
-	position: relative;
-	right: -25%;
+	font-size: 18px;
+	margin-right:3%;
+	border: solid 1px white;
+	width: 10%;
+	height: 30px;
+	margin-top: 10px;
 }
 
 .profileimage
@@ -68,8 +71,8 @@
 
 .left 
 { 
-    float: left; /* Обтекание по правому краю */
-    width: 40%; /* Ширина слоя */
+    float: left;
+    width: 40%; 
 	height:auto;
 	border: solid 1px black;
 	margin-right:30px;
@@ -77,9 +80,19 @@
 
 .right 
 { 
-    width: 100%; /* Ширина слоя */
-    float: left; /* Обтекание по правому краю */
+    width: 100%;
+    float: left; 
 	font-size:24px;
+}
+
+.bottomblock
+{
+	width: 100%;
+	background-color: #097fdc;
+	color: white; 
+	height: 10%;
+	float: left;
+	vertical-align: bottom;
 }
 
 @media screen and (max-width:920px) 
